@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "SET \"NODE_ENV=development\" && nodemon app",
-    "staging": "SET \"NODE_ENV=staging\" && nodemon app",
-    "build": "SET \"NODE_ENV=production\" && nodemon app",
-    "cron-dev": "SET \"NODE_ENV=development\" && nodemon cron",
-    "cron": "SET \"NODE_ENV=production\" && nodemon cron",
+    "start": "SET \"NODE_ENV=development\" && node app",
+    "staging": "SET \"NODE_ENV=staging\" && node app",
+    "build": "SET \"NODE_ENV=production\" && node app",
+    "cron-dev": "SET \"NODE_ENV=development\" && node cron",
+    "cron": "SET \"NODE_ENV=production\" && node cron",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Muladi Wahyudin",
